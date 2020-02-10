@@ -17,7 +17,7 @@ const MAX_POSSIBLE_MOBILE_SCREEN_HEIGHT = 960;
 const BackgroundImage = styled.div`
   width: 100%;
   padding-bottom: ${(props) => 100 / props.ratio}%;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: lightgray;
